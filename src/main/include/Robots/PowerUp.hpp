@@ -2,8 +2,7 @@
  * PowerUp.h
  */
 
-#ifndef ROBOTS_POWERUP_H_
-#define ROBOTS_POWERUP_H_
+#pragma once
 
 #include "FrcRobot.hpp"
 
@@ -18,5 +17,3 @@ public:
 };
 
 } /* namespace frc */
-
-#endif /* ROBOTS_POWERUP_H_ */

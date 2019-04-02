@@ -1,5 +1,4 @@
-#ifndef ROBOTBASE_H
-#define ROBOTBASE_H
+#pragma once
 
 namespace frc4783 {
 
@@ -11,6 +10,3 @@ class RobotBase {
 };
 
 }  // namespace frc4783
-
-
-#endif // ROBOTBASE_H

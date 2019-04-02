@@ -2,8 +2,7 @@
  * FrcRobot.h
  */
 
-#ifndef ROBOTS_FrcRobot_H_
-#define ROBOTS_FrcRobot_H_
+#pragma once
 
 #include <memory>
 #include <map>
@@ -55,4 +54,3 @@ protected:
 
 } /* namespace frc4783 */
 
-#endif /* ROBOTS_FrcRobot_H_ */

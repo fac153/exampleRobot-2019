@@ -2,7 +2,7 @@
  * FrcRobot.cpp
  */
 
-#include "Robots/FrcRobot.hpp"
+#include "robots/FrcRobot.hpp"
 #include "frc/VictorSP.h"
 #include "frc/SpeedControllerGroup.h"
 #include "frc/drive/DifferentialDrive.h"

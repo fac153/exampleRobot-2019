@@ -2,8 +2,7 @@
  * SteamWorks.h
  */
 
-#ifndef ROBOTS_STEAMWORKS_H_
-#define ROBOTS_STEAMWORKS_H_
+#pragma once
 
 #include "FrcRobot.hpp"
 
@@ -16,5 +15,3 @@ public:
 };
 
 } /* namespace frc */
-
-#endif /* ROBOTS_STEAMWORKS_H_ */

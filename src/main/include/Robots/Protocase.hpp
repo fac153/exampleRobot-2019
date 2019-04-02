@@ -2,8 +2,7 @@
  * Protocase.h
  */
 
-#ifndef ROBOTS_PROTOCASE_H_
-#define ROBOTS_PROTOCASE_H_
+#pragma once
 
 #include "FrcRobot.hpp"
 
@@ -16,5 +15,3 @@ public:
 };
 
 } /* namespace frc */
-
-#endif /* ROBOTS_PROTOCASE_H_ */

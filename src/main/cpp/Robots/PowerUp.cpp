@@ -2,7 +2,7 @@
  * PowerUp.cpp
  */
 
-#include "Robots/PowerUp.hpp"
+#include "robots/PowerUp.hpp"
 
 #include "ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h"
 #include "ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h"

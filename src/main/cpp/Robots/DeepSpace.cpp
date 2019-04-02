@@ -2,7 +2,7 @@
  * DeepSpace.cpp
  */
 
-#include "Robots/DeepSpace.hpp"
+#include "robots/DeepSpace.hpp"
 
 namespace frc4783 {
 

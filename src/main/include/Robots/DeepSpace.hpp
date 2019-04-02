@@ -2,8 +2,7 @@
  * DeepSpace.h
  */
 
-#ifndef ROBOTS_DEEPSPACE_H_
-#define ROBOTS_DEEPSPACE_H_
+#pragma once
 
 #include "FrcRobot.hpp"
 
@@ -17,5 +16,3 @@ public:
 };
 
 } /* namespace frc */
-
-#endif /* ROBOTS_DEEPSPACE_H_ */
