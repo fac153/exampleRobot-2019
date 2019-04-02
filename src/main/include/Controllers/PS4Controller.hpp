@@ -1,7 +1,6 @@
-#ifndef CONTROLLERS_PS4CONTROLLER_H
-#define CONTROLLERS_PS4CONTROLLER_H
+#pragma once
 
-#include "Controllers/FrcController.hpp"
+#include "controllers/FrcController.hpp"
 
 namespace frc4783 {
 
@@ -44,5 +43,3 @@ protected:
 };
 
 } // namespace frc4783
-
-#endif // CONTROLLERS_PS4CONTROLLER_H

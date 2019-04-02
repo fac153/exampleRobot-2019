@@ -1,5 +1,4 @@
-#ifndef CONTROLLERS_FRCCONTROLLER_H
-#define CONTROLLERS_FRCCONTROLLER_H
+#pragma once
 
 #include <map>
 #include <memory>
@@ -22,6 +21,8 @@ public:
 
     double getRawAxis(ControllerAxesType_e id);
 
+    int addCommand(ControllerButtonType_e button, JoystickButtonActions_e action, frc::Command *command);
+
 protected:
 
     virtual int mapAxes(ControllerAxesType_e id) = 0;
@@ -32,5 +33,3 @@ protected:
 };
 
 } // namespace frc4783
-
-#endif  // CONTROLLERS_FRCCONTROLLER_H

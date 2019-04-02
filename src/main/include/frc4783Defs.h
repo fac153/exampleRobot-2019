@@ -55,6 +55,21 @@ typedef enum controllerAxesType {
     Right_Y_Axis
 } ControllerAxesType_e;
 
+typedef enum joystickButtonAction {
+    // Trigger actions
+    WhenActive,
+    WhileActive,
+    WhenInactive,
+    CancelWhenActive,
+    ToggleWhenActive,
+    // Button actions
+    WhenPressed,
+    WhileHeld,
+    WhenReleased,
+    CancelWhenPressed,
+    ToggleWhenPressed
+} JoystickButtonActions_e;
+
 } // namespace frc4783
 
 

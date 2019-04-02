@@ -1,7 +1,6 @@
-#ifndef CONTROLLERS_XBOXCONTROLLER_H
-#define CONTROLLERS_XBOXCONTROLLER_H
+#pragma once
 
-#include "Controllers/FrcController.hpp"
+#include "controllers/FrcController.hpp"
 
 namespace frc4783 {
 
@@ -37,5 +36,3 @@ protected:
 };
 
 } // namespace 4783
-
-#endif // CONTROLLERS_XBOXCONTROLLER_H
